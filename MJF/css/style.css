@@ -237,6 +237,7 @@ a {
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #23bbfb;
+    text-decoration: underline;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -632,4 +633,23 @@ button.main_bt {
 #main_slider .carousel-control-next:focus {
     background: #10b5fa;
     color: #fff;
+}
+
+
+/* styling links */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
